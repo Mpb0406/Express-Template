@@ -11,11 +11,11 @@ Authenticate users using JWT and check against hashed password using BCrypt. Thi
 
 ###Profile Route
 8 Endpoints
-*Post a new profile
-*Get the user profile
-*Delete the user profile
-*Update the user profile (Experience)
-*Delete part of user profile (Experience)
-*Update the user profile (Education)
-*Delete part of user profile (Education)
-*Get github repos from user by username
+* Post a new profile
+* Get the user profile
+* Delete the user profile
+* Update the user profile (Experience)
+* Delete part of user profile (Experience)
+* Update the user profile (Education)
+* Delete part of user profile (Education)
+* Get github repos from user by username
