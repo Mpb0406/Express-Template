@@ -5,7 +5,6 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const config = require('config');
 const { check, validationResult } = require('express-validator');
-//User Model
 const User = require('../../models/User');
 
 // @route   POST api/users
@@ -17,6 +16,7 @@ router.post('/', [
     check('password', 'Please enter a password with 6 or more characters').isLength({ min: 6 })
 ], async (req, res) => {
     const errors = validationResult(req);
+
     if (!errors.isEmpty()) {
         return res.status(400).json({ errors: errors.array() })
     }
@@ -66,11 +66,6 @@ router.post('/', [
         console.error(err.message);
         res.status(500).send('Server Error');
     }
-
-
-
-
-
 });
 
 module.exports = router;
