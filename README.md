@@ -19,3 +19,14 @@ Authenticate users using JWT and check against hashed password using BCrypt. Thi
 * Update the user profile (Education)
 * Delete part of user profile (Education)
 * Get github repos from user by username
+
+### Posts Route
+8 Endpoints
+* Create a post
+* Get all user posts
+* Get post by post id
+* Delete post by post id
+* Add like to post by post id
+* Remove like from post by post id
+* Add comment on post by post id
+* Delete comment on post by post id
