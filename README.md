@@ -1,7 +1,7 @@
 # Express-Template
 
 ## Express Backend connecting with MongoDB Database
-This is a backend template with 4 main routes that can be expanded on. Contains 4 routes
+This is a backend template with 4 main routes that can be expanded on. Contains 4 routes (auth, user, post, profile)
 
 ### Users Route
 Ability to create a new user account using JWT Tokens and BCrypt to hash passwords. Uses express-validator to handle validation on the server side. Route returns JWT token to put in header on the front end
