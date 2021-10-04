@@ -1,4 +1,4 @@
-# Express-Template
+# Express-Template with MongoDB
 
 ## Express Backend connecting with MongoDB Database
 This is a backend template with 4 main routes that can be expanded on. Contains 4 routes (auth, user, post, profile) with gravatar and github api integrated
