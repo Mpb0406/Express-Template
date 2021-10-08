@@ -24,6 +24,7 @@ Authenticate users using JWT and check against hashed password using BCrypt. Thi
 8 Endpoints
 * Create a post
 * Get all user posts
+* Get all posts in DB
 * Get post by post id
 * Delete post by post id
 * Add like to post by post id
